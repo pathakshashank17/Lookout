@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <title>Lookout</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            width: 200px;
+            height: 250px;
+            background: rgb(0, 119, 181);
+            background: linear-gradient(315deg, rgba(0, 119, 181, 1) 3%, rgba(3, 183, 255, 1) 17%, rgba(0, 212, 255, 1) 100%);
+        }
+
+        h1 {
+            font-weight: 500;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 150px;
+        }
+
+        button {
+            width: 100px;
+            height: 45px;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            font-weight: 500;
+            color: #000;
+            background-color: #fff;
+            border: none;
+            border-radius: 45px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            outline: none;
+        }
+
+        button:hover {
+            background-color: #005dd0;
+            box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+            color: #fff;
+        }
+
+
+        .text-input {
+            position: relative;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+
+        .text-input input[type="text"] {
+            display: inline-block;
+            width: 170px;
+            height: 40px;
+            box-sizing: border-box;
+            outline: none;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+            padding: 10px 10px 10px 100px;
+            transition: all 0.1s ease-out;
+        }
+
+        .text-input input[type="text"]+label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            height: 40px;
+            line-height: 40px;
+            color: white;
+            border-radius: 3px 0 0 3px;
+            padding: 0 10px;
+            background: #005dd0;
+            transform: translateZ(0) translateX(0);
+            transition: all 0.3s ease-in;
+            transition-delay: 0.2s;
+        }
+
+        .text-input input[type="text"]:focus+label {
+            transform: translateY(-120%) translateX(0%);
+            border-radius: 3px;
+            transition: all 0.1s ease-out;
+        }
+
+        .text-input input[type="text"]:focus {
+            padding: 10px;
+            transition: all 0.3s ease-out;
+            transition-delay: 0.2s;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><b>LOOK</b>OUT</h1>
+    <p style="font-weight: 900;">for Google Meet</p>
+    <div class="main">
+        <div class="text-input">
+            <input type="text" id="lookoutText" placeholder="...word" autofocus>
+            <label for="lookoutText"><b>Lookout for...</b></label>
+        </div>
+        <button id="toggle">Toggle</button>
+    </div>
+    <script type="text/javascript" src="./popup.js"></script>
+</body>
+
+</html>
