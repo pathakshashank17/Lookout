@@ -22,20 +22,6 @@
 - Now click on `Load unpacked`
 - Browse over to the cloned repo and select the folder. The extension has now been installed.
 
-### Using `git`
-
-- In your console, type `git clone https://github.com/pathakshashank17/Lookout.git`
-- Open chrome, click on ellipsis on top right corner.
-- Go to `More tools` >  `Extensions` and toggle on the `Developer mode` toggler.
-- Now click on `Load unpacked`
-- Browse over to the cloned repo and select the folder. The extension has now been installed.
-
-### Using `Download zip`
-
-- Click on `Code` dropdown on the repo page.
-- Download the zip file and extract it.
-- Follow the above set of instructions from step 2.
-
 <h2 align="center">Usage</h2>
 
 - Click on the <img src="./lookout.png" width="20px" alt="icon"> icon on the extensions tray.
