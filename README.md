@@ -1,7 +1,7 @@
 <h1 align="center">Lookout <img src="./lookout.png" width="25px" alt="icon"> </h1>
 
 <div align="center">
-<img src="https://img.shields.io/github/downloads/pathakshashank17/Lookout/v1.0/total?color=green&label=Downloads%20&style=flat-square" alt="downloads-badge">
+<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/pathakshashank17/Lookout/total?style=for-the-badge">
 </div>
 
 <p align="center">
