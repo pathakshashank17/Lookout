@@ -18,9 +18,9 @@
 - Click here to download > [Release zip file](https://github.com/pathakshashank17/Lookout/archive/v1.0.zip)
 - Download the zip file and extract it.
 - Open chrome, click on ellipsis on top right corner.
-- Go to `More tools` >  `Extensions` and toggle on the `Developer mode` toggler.
+- Go to `More tools` >  `Extensions` and **toggle on** the `Developer mode` toggler.
 - Now click on `Load unpacked`
-- Browse over to the cloned repo and select the folder. The extension has now been installed.
+- A popup will open asking you to select the folder containing extracted files. Browse over to the folder containing extracted files and click `OK` aaaand you are done !
 
 <h2 align="center">Usage</h2>
 
@@ -30,4 +30,6 @@
 - To **turn off** the lookout, just press on the `Toggle` button while the `input field` is **empty**.
 - Whenever the extension detects the lookout string in the captions, it sounds beeps (3-4 times apprx.).
 
-<p align="center">All suggestions, issues, bugs and contributions are welcome 🤗.</p>
+<p align="center">All suggestions, issues, bugs and contributions are welcome 🤗. <br><br>
+<img src="http://hits.dwyl.com/pathakshashank17/Lookout.svg" alt="hits">
+</p>
